@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/RubikMonoOne-Regular.ttf);
+}
+
+body {
+    font-family: Poppins;
+    margin: 0vw;
+    font-size: 1vw
+}
+
+header {
+    margin: 0;
+    display: flex;
+    color: rgb(255, 102, 0);
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-image: url(../header.png);
+    background-size: 106vw;
+    /* background-image: url(images\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;*/
+    border-bottom: solid rgb(241, 178, 42);
+}
+
+header h1,
+header h3 {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h1 {
+    font-size: 2.3vw;
+    color: rgb(0, 0, 0);
+    padding-left: 2vw;
+    font-family: Rubik;
+
+}
+
+header h3 {
+    font-size: 1.2vw;
+    text-align: justify;
+    padding-left: 2vw;
+    text-decoration: underline;
+    font-family: Rubik;
+}
+
+header ul {
+    list-style: none;
+    margin-top: 0;
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.6vw;
+    margin-left: 198%;
+}
+
+header li {
+    padding: 0.1vw;
+    /* adiciona padding a esquerda e direita do item da lista */
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 1.45vw;
+    border-radius: 2vw;
+    text-align: space-between;
+}
+
+header img {
+    width: 11vw;
+
+
+}
+
+.title-container {}
+
+main {
+    background-image: url(../background\ \(2\).png);
+    background-position: 10%;
+    background-size: cover;
+    margin-top: 1.5vw;
+    padding: 2vw;
+    text-align: justify;
+}
+
+section {
+    padding-top: 0.3vw;
+
+}
+
+section p {
+    background-color: rgba(15, 13, 13, 0.5);
+    border-radius: 1vw;
+    padding: 1vw;
+    color: aliceblue;
+}
+
+#about h3 {
+    font-size: 2vw;
+}
+
+.about-right {
+
+    margin-left: 10%;
+
+}
+
+#repository {
+    margin-top: 3vw;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#repository h1 {
+    text-align: center;
+
+}
+
+a img {
+    width: 5vw;
+    background-color: rgb(175, 224, 175);
+    border-radius: 3vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+}
+
+a img:hover {
+    transition: 0.5s;
+    background-color: rgb(121, 153, 121);
+}
+
+#portfolio {
+    background-color: #fd8700;
+    color: black;
+}
+
+#portfolio:hover {
+    background-color: #e77409;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+#sobre:hover {
+    transition: 0.3s;
+    color: #fd8700;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+#about {
+    display: flex;
+    /* transforma o elemento em um container flex */
+    align-items: center;
+    /* alinha itens verticalmente ao centro */
+    justify-content: space-between;
+    /* adiciona espaço igual entre os itens */
+}
+
+#about img {
+    width: 28vw;
+    border-radius: 2vw;
+    margin-left: 5vw;
+}
+
+.drive img {
+    width: 50vw;
+    margin-left: 25%;
+
+}
+.drive a{
+    display:block;
+    margin-left:45%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #fbfeff;
+    padding:1vw;
+    margin-right:38%;
+    border: black 2px solid;
+    border-radius: 2vw;
+}
+.drive a:hover{
+    transition:0.4s;
+    background-color:rgb(211, 210, 210);
+}
