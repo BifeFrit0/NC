@@ -179,18 +179,29 @@ a img:hover {
     margin-left: 25%;
 
 }
-.drive a{
-    display:block;
-    margin-left:45%;
+
+.drive a {
+    display: block;
+    margin-left: 45%;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: #fbfeff;
-    padding:1vw;
-    margin-right:38%;
+    padding: 1vw;
+    margin-right: 38%;
     border: black 2px solid;
     border-radius: 2vw;
 }
-.drive a:hover{
-    transition:0.4s;
-    background-color:rgb(211, 210, 210);
+
+.drive a:hover {
+    transition: 0.4s;
+    background-color: rgb(211, 210, 210);
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 0.4vw;
+}
+
+footer h3 {
+    text-align: center;
 }
