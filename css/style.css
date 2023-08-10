@@ -205,3 +205,19 @@ footer {
 footer h3 {
     text-align: center;
 }
+footer img{
+    bottom:0;
+    position:relative;
+    width:8%;
+    padding:0.3vw;
+    background-color: rgba(0, 0, 0, 0.11);
+    
+}
+footer img:hover{
+    transition:0.3s;
+    background-color: #fd8700;
+}
+.footer-image{
+    margin-left: 47%;
+    
+}
